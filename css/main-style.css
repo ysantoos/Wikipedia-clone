@@ -1,0 +1,163 @@
+/* ------------ Estilos Header */
+header {
+    margin-top: 50px;
+    margin-bottom: 16px;
+    width: 100%;
+}
+header .central-textlogo img {
+    background-image: transparent;
+    background-repeat: no-repeat;
+    height: 45px;
+    
+}
+
+header .central-textlogo h1 {
+    margin: 0px;
+}
+
+.central-textlogo {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.central-logo-image {
+    background-image: url("../images/wikipedia-logo.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: absolute;
+}
+
+
+.localized-slogan {
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* ------------ Estilos main/languages */
+
+
+main .central-languages {
+    height: 400px;
+    max-width: 100%;
+    margin: 0 auto;
+    width: 673px;
+}
+
+main .central-languages .central-lenguajes-img {
+    align-items: center;
+    display: flex;
+    justify-content: center; 
+}
+
+main .central-languages .central-lenguajes-img  img {
+    height: 183px;
+    width: 200px;
+    margin: 15% auto;
+    position: absolute;
+}
+
+main  .central-languages .central-lenguages-row1 {
+    display: flex;
+    align-items: flex-end;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: space-between;
+    margin-right: 25%;
+    margin-left: 25%;
+    padding: 20px;
+}
+
+main  .central-languages .central-lenguages-row2 {
+    display: flex;
+    align-items: flex-end;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: space-between;
+    margin-right: 15%;
+    margin-left: 15%;
+    padding: 20px;
+}
+main  .central-languages .central-lenguages-row3 {
+    display: flex;
+    align-items: flex-end;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: space-between;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 20px;    
+}
+
+main  .central-languages .central-lenguages-row4 {
+    display: flex;
+    align-items: flex-end;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: space-between;
+    margin-right: 15%;
+    margin-left: 15%;
+    padding: 20px;
+}
+
+main  .central-languages .central-lenguages-row5 {
+    display: flex;
+    align-items: flex-end;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: space-between;
+    margin-right: 25%;
+    margin-left: 25%;
+    padding: 20px;
+}
+
+main  .central-languages .central-lenguague-text {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+/* ------------ Estilos main/input */
+
+main .search-container {
+    display: flex;
+    justify-content: center;
+}
+
+main .search-container .search-container-input {
+    border: 1px;
+    border-style: solid;
+    display: flex;
+    justify-content: space-between;
+    height: 44px;
+    width:28%;
+}
+
+main .search-container .search-container-input input {
+    border-style: none;
+    border: 1px;
+    height: 40px;
+    padding: 10px;
+    outline: none;
+    width: 70%;
+}
+
+main .search-container .search-container-select {
+    width: auto;
+    display: flex;
+}
+
+main .search-container .search-container-select  select{
+    width: 60px;
+    border-style: none;
+}
+
+main .search-container  .search-container-button {
+    background-image: url('../images/search.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: #2a4b8d;
+    border-color:  #2a4b8d;
+    width: 56px;
+    height: 45x;
+    cursor: pointer;
+}
